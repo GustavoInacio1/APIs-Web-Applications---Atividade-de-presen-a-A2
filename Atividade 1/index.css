@@ -1,0 +1,31 @@
+.letter {
+    border: solid 1px #000000;
+    width: 400px;
+    margin:auto;
+    margin-top: 10%;
+    padding: 30px;
+}
+
+.letter h1 {
+    margin-top: auto;
+    text-align: center;
+}
+
+.row {
+    clear: both;
+    position: relative;
+    /* float: right; */
+}
+
+.caixaDeEntrada{
+    
+    position: absolute;
+    right: 20px;
+    height: 13px;
+}
+
+.data{
+    position: relative;
+    bottom: -10px;
+    text-align: center;
+}

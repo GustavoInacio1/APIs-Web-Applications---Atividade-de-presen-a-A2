@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+
+    <body>
+        <div class="letter">
+            <h1>
+                Calcular IMC
+            </h1>
+            <div class="formulario">
+                <div class="row">
+                    <label>Altura [m]: </label>
+                    <input id="altura" value="0.00" placeholder="0.00" class="caixaDeEntrada" />
+                </div>
+                <div class="row">
+                    <label>Peso [kg]: </label>
+                    <input id="peso" value="0.00" placeholder="0.00" class="caixaDeEntrada" />
+                </div>
+            </div>
+            <hr />
+            <div>
+                <button class = "button" onclick="calculate()">
+                    Calcular
+                </button>
+            </div>
+            <div>
+                
+            </div>
+            <div class="data">
+                <span id="imc"></span>
+            </div> 
+        </div>  
+
+    </body> 
+
+    <script lang="text/javascript" src="./index.js"></script>
+
+</html>
